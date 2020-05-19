@@ -9,7 +9,7 @@ class Song
 
   def self.create
     song = self.new
-    songf
+    song
   end
 
 end
