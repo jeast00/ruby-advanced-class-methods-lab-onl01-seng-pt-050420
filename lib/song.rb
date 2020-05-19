@@ -49,7 +49,6 @@ class Song
     song.name = name.split(" - ")[1].sub(/\.[^.]+\z/, '')
     song.artist_name = name.split(" - ")[0]
     song
-    binding.pry
   end
 
 
